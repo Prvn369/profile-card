@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: #ffff;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #4070f4;
+    border-radius: 50%;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    height: 145px;
+    width: 145px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.text-data{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-size: 25px;
+    
+
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.link{
+    text-decoration: none;
+    background-color: #4070f4;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+#facebook{
+    background-color: #4267b2;
+}
+#twitter{
+    background-color: #1da1f2;
+}
+#instagram{
+    background-color: #e1306c;
+}
+#youtube{
+    background-color: #ff0000;
+}
+
+#facebook:hover{
+    background-color: #4267b2d0;
+}
+#twitter:hover{
+    background-color: #1da0f2d2;
+}
+#instagram:hover{
+    background-color: #e1306bd0;
+}
+#youtube:hover{
+    background-color: #ff0000b7;
+}
+
+.buttons{
+    margin-top: 15px;
+    
+}
+.button{
+    padding: 8px 24px;
+    font-size: 15px;
+    background-color: #4070f4;
+    color: white;
+    border-radius: 24px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;   
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background-color: #0e4bf1;
+}
+
+.engagements{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon:last-child{
+    border-right: none;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 23px;
+    gap: 3px;
+    font-size: 15px;
+    border-right: 2px solid #e7e7e7;
+    color: #333;
+}
+
+.icon i {
+    font-size: 18px;
+}
